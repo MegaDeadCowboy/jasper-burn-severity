@@ -1,0 +1,7 @@
+data/*
+!data/.gitkeep
+*.tif
+*.zip
+.ipynb_checkpoints/
+__pycache__/
+.venv/
