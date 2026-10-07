@@ -72,3 +72,4 @@ Resume convention: give the project a real end date once it's done. Only active 
 ## Decision Log
 - 2026-10-07: Chose Jasper 2024 over Beachie Creek 2020 for the beetle question and the Canada angle. Validation uses NBAC instead of MTBS, which only covers the US.
 - 2026-10-07: Validation uses the single-year NBAC_2024_20260513.zip (from the newer 1972–2025 release, CWFIS /downloads/nbac/) instead of the 1 GB full shapefile; the GEE community catalog copy stops at 2023.
+- 2026-10-07: All bands (incl. NDVI B04/B08) resampled to one 20 m UTM 11N grid; SCL keep-list {2,4,5,6,7} keeps class 2 (dark area) so fresh char is not masked; baseline ≥04.00 scenes get the −1000 DN offset removed.
