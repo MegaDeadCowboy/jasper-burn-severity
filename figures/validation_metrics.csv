@@ -1,3 +1,0 @@
-subset,pixels,TP,FP,FN,TN,IoU,precision,recall,F1,overall_acc,pred_burned_ha,ref_burned_ha,area_diff_pct
-pre-fire NDVI >= 0.10 (adopted),1392219,764208,26072,22514,579425,0.9402,0.967,0.9714,0.9692,0.9651,31611.2,31468.88,0.4523
-all pixels,1515000,766661,52003,23897,672439,0.9099,0.9365,0.9698,0.9528,0.9499,32746.56,31622.32,3.5552
